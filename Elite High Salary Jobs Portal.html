@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elite High Salary Jobs</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f4f6f9;
+    }
+
+    header {
+        background: linear-gradient(90deg, #1e3c72, #2a5298);
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .container {
+        padding: 30px;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .job-card {
+        background: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        transition: 0.3s;
+    }
+
+    .job-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .job-title {
+        font-size: 22px;
+        font-weight: bold;
+        color: #2a5298;
+    }
+
+    .salary {
+        color: green;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .apply-btn {
+        margin-top: 15px;
+        padding: 10px 15px;
+        background: #2a5298;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .apply-btn:hover {
+        background: #1e3c72;
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        background: #2a5298;
+        color: white;
+        margin-top: 30px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Elite High Salary Jobs Portal</h1>
+    <p>Find Your Dream Job with $12,000 Salary</p>
+</header>
+
+<div class="container">
+
+    <div class="job-card">
+        <div class="job-title">Graphic Designer</div>
+        <p>Create visual concepts and digital designs for global brands.</p>
+        <div class="salary">$12,000 / Month</div>
+        <button class="apply-btn" onclick="applyJob('Graphic Designer')">Apply Now</button>
+    </div>
+
+    <div class="job-card">
+        <div class="job-title">Chartered Accountant (CA)</div>
+        <p>Manage financial audits, taxation, and company accounts.</p>
+        <div class="salary">$12,000 / Month</div>
+        <button class="apply-btn" onclick="applyJob('Chartered Accountant')">Apply Now</button>
+    </div>
+
+    <div class="job-card">
+        <div class="job-title">Accounting Specialist</div>
+        <p>Handle financial records, reports, and budgeting processes.</p>
+        <div class="salary">$12,000 / Month</div>
+        <button class="apply-btn" onclick="applyJob('Accounting Specialist')">Apply Now</button>
+    </div>
+
+    <div class="job-card">
+        <div class="job-title">Cybersecurity Expert</div>
+        <p>Protect systems and networks from cyber threats and attacks.</p>
+        <div class="salary">$12,000 / Month</div>
+        <button class="apply-btn" onclick="applyJob('Cybersecurity Expert')">Apply Now</button>
+    </div>
+
+    <div class="job-card">
+        <div class="job-title">Cloud Architect</div>
+        <p>Design and manage scalable cloud infrastructure solutions.</p>
+        <div class="salary">$12,000 / Month</div>
+        <button class="apply-btn" onclick="applyJob('Cloud Architect')">Apply Now</button>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Elite High Salary Jobs | All Rights Reserved
+</footer>
+
+<script>
+function applyJob(jobName) {
+    alert("You have successfully applied for the position of " + jobName + "!");
+}
+</script>
+
+</body>
+</html>
